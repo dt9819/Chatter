@@ -38,12 +38,12 @@ $(document).ready(function () {
 
 function makeid() {
     var text = "User ";
-    var possible = "HAWK";
+    var possible = "234";
     text += no;
     no = no+1;
 
-    // for (var i = 0; i < 5; i++) {
-    //     text += possible.charAt(Math.floor(Math.random() * possible.length));
-    // }
+    for (var i = 0; i < 1; i++) {
+        text += possible.charAt(Math.floor(Math.random() * possible.length));
+    }
     return text;
 }
